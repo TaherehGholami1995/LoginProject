@@ -10,7 +10,6 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: seagreen;
   background: url("img2.jpg") no-repeat;
   background-position: center;
 }
@@ -106,4 +105,24 @@ body {
 }
 .register-link p a:hover {
   text-decoration: underline;
+}
+
+
+
+.modal{
+color: #fff;
+padding: 30px;
+border-radius: 10px;
+display: none;
+font-size: 20px;
+font-weight: bold;
+position: absolute;
+z-index: 999;
+right: 10px;
+top: 10px;
+transition: all 1s linear;
+backdrop-filter: blur(30px);
+background: transparent;
+
+
 }
